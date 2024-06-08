@@ -12,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EfdbFirstContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DBFirstEFConnection")));
 builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
 
 var app = builder.Build();
 

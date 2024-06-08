@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreWenAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844811c9f774aea003f29d8f984edfac1aef6fc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d6225c8d65f3008a3e20a7503e6e60dd90f3cd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreWenAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreWenAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
