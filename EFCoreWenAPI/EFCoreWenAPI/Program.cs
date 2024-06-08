@@ -1,4 +1,5 @@
 using EFCoreWenAPI.Models;
+using EFCoreWenAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EfdbFirstContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DBFirstEFConnection")));
-
+builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
 
 var app = builder.Build();
 
