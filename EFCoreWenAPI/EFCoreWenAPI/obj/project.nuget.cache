@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rFdRVOrmoup+oqvLPBGcOTN8hWWn5WdH3YeQhjRO+Vwjcl55YwVI7+8cAtI+gWB3YTyuP+Ei3g62O5pIh09R8A==",
+  "dgSpecHash": "9Lywypczs6lzwfk396AYVt5cvEWCPIpBk3mOcEHzLEOu0CBe7cekN0WyEdU2hKziZuYJximVS/Ty1hgxRjN8Uw==",
   "success": true,
   "projectFilePath": "D:\\Repo\\EFCoreWenAPI\\EFCoreWenAPI\\EFCoreWenAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jayes\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\jayes\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jayes\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\jayes\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
